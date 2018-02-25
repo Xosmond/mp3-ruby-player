@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    audio-playback (0.0.8)
+      ffi-libc (~> 0.1, >= 0.1.0)
+      ffi-portaudio (~> 0.1, >= 0.1.2)
+      ruby-audio (~> 1.6, >= 1.6.1)
+    ffi (1.9.23)
+    ffi-libc (0.1.0)
+      ffi (~> 1.0)
+    ffi-portaudio (0.1.2)
+      ffi
+    lame (0.0.4)
+      ffi
+    ruby-audio (1.6.1)
+    wavefile (0.8.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  audio-playback
+  lame
+  wavefile
+
+BUNDLED WITH
+   1.16.1
